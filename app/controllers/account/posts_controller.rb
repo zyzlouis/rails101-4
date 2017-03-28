@@ -1,5 +1,5 @@
 class Account::PostsController < ApplicationController
-  before_action :authenticate_user!ß
+  before_action :authenticate_user!
   def index
     @posts = current_user.posts
   end
